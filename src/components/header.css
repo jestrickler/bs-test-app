@@ -1,0 +1,10 @@
+.header-logo {
+  float: left;
+  animation: header-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+@keyframes header-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
